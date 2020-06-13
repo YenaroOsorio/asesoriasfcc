@@ -1,0 +1,44 @@
+body {
+	font-family: "Montserrat",sans-serif;
+	color: #3C3939;
+	background-color: #F1F1F1;
+}
+
+.profile-card {
+	width: 400px;
+	margin: auto;
+	background: #FFF;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+
+.image-container {
+	position: relative;
+}
+
+.info {
+	color: #4B4FE2;
+	margin-right: 16px;
+}
+
+.main-container {
+	padding: 20px;
+}
+
+.skill-bar {
+	background-color: #BDC9EA;
+	border-radius: 16px;
+}
+
+.progress-bar {
+	padding: 0.1em 16px;
+	border-radius: 16px;
+	text-align: center;
+	color: #fff;
+	background-color: #4B4FE2
+}
+
+.title {
+	position: absolute;
+	left: 15px;
+	bottom: 0;
+}

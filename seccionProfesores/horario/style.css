@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+    /*box-sizing: inherit; /*todos los elementos heredaran del nodo principal... ( de html{} )*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.tabla {
+    width: 80%;
+    margin: 5% auto;
+    border: 1px solid black;
+    display: table;
+}
+.encabezado {
+    background-color: #002D4C;
+    display: table-row;
+    text-align: center;
+}
+.fila {
+    display: table-row;
+    
+}
+.celda {
+    text-align: center;
+    display: table-cell;
+    border: solid #777777;
+    border-width: thin;
+    vertical-align: middle;
+    color: white;
+    padding: .5em;
+} 
+#materia {
+    cursor: pointer;
+}
+#materia:hover {
+    background: yellow;
+}
+
+
+
+.context-menu {
+    background: #eee;
+    position: absolute;
+}
+.context-menu li {
+    padding: 0 .5em;
+    list-style: none;
+    padding: .5em 1em;
+    color: white;
+    cursor: pointer;
+}
+.context-menu li:first-child {background: cornflowerblue;}
+.context-menu li:nth-child(2) {background: green;}
+.context-menu li:nth-child(3) {background: blue;}
+.context-menu li:nth-child(4) {background: orange;}
+.context-menu li:last-child {background: red;}
+
+.context-menu li:hover {
+    background-color: #002D4C;
+}
+
+.guardar {
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    padding: 1em;
+    cursor: pointer;
+    font-family: 'Gothic A1';
+    margin-left: 150px;
+    color: white;
+    background-color: #04bbe7;
+}
+.guardar:hover {
+    background-color: #002D4C;
+}

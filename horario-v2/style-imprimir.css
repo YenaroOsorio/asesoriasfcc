@@ -1,0 +1,43 @@
+
+
+.asesoria-label{
+   background: #f89748;
+   color: #000;
+}
+
+.tutoria-label{
+   background: #ffff00;
+   color: #000; 
+}
+
+.clase-label{
+  background: #c6d9f1;
+  color: #000;    
+}
+
+.gestion-label{
+  background: #ccc0d9;
+  color: #000;    
+}
+
+.investigacion-label{
+    background: #d9d9d9;
+    color: #000;   
+}
+
+.horarioheader{
+    color: #FFF;
+    background: #003b5c;    
+}
+
+.thead{
+    font-size: 16px;
+    background: #31708f;
+    color: #FFF;
+}
+
+.td-time{
+    background: #ffffff;
+    color: #3392b7;
+    font-size: 16px;
+}

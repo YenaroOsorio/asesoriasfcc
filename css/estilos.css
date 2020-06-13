@@ -1,0 +1,47 @@
+/*.container {
+  border: 1px solid red; }
+
+.row {
+  border: 1px solid blue; }
+
+.row > * {
+  border: 1px solid green;
+  border-radius: 10px;
+}
+.letras{
+    font-size: 1em;
+}
+
+.bg-primary {
+  background-color: #d21327 !important; 
+}*/
+
+.servicios > * {
+  border: 1px solid red; 
+}
+.fondo{
+    background: url(fondo.jpg);
+}
+.fondo2{
+    background: color:"red"
+}
+.fondoservicio{
+    background: url(fondo2.jpg);
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+
+/*.servicios{
+    border: 1px solid green;
+    height: 30px;
+}*/
+
+
+/*# sourceMappingURL=estilos.css.map */
